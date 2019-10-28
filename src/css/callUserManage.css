@@ -1,0 +1,24 @@
+.el-select.selectBox .el-input__inner {
+    height: 28px;
+    width: 280px;
+    background: #f4f4f4;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    width: 280px;
+}
+
+.inputBox .el-input__inner {
+    background: #f4f4f4;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+
+/* 语音模块 radio按钮样式 */
+
+.radioTemp .el-radio__label {
+    display: none
+}

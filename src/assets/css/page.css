@@ -1,0 +1,222 @@
+/* 公用样式表格和分页在底部 */
+/* 呼出管理和告警管理模块样式 */
+.infor_Page{
+    background:#e4ebf0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    padding:0 10px 10px 10px;
+    min-width: 1080px;
+    font-family: "微软雅黑";
+    min-height: calc(100vh - 50px);
+}
+.infor_Page .sure_btn{
+    width:60px;
+    height:30px;
+    border-radius:15px;
+    outline: none;
+    background:#fff;
+    border:1px solid #0978bc;
+    color:#0978bc;
+}
+.infor_Page .cancel_btn{
+    margin-left:14px;
+    width:60px;
+    height:30px;
+    border-radius:15px;
+    background:#fff;
+    border:1px solid #0978bc;
+    color:#0978bc;
+    outline: none;
+}
+.cancel_btn,.sure_btn{cursor: pointer;}
+.infor_Page .sure_btn:hover,.infor_Page .cancel_btn:hover{
+    background:#0978bc;
+    border:none;
+    color:#fff;
+}
+.infor_Page .pageContent{
+    background-color: #fff;
+    box-sizing:border-box;
+    padding: 10px;
+    min-height:calc(100vh - 90px);
+    /* margin-bottom: 10px; */
+}
+/* 查询条件样式 */
+
+.pageContent .itemBox{
+    margin-bottom:10px;
+    border-bottom:1px #d9d9d9 dashed;
+    height:120px;
+    overflow:hidden;
+    min-width: 990px;
+}
+.pageContent .itemBox >div{
+    margin:20px 0;
+    /* border: 1px solid red; */
+}
+.pageContent .itemInput{display: inline-block;margin-right: 30px;}
+.pageContent .itemBtn{display: inline-block;width:140px;}
+.pageContent .itemInput > label {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  color: #6d6d6d;
+  font-size: 14px;
+  font-family: '微软雅黑';
+}
+.pageContent .itemInput > .el-input,
+.pageContent .itemInput > .el-select,
+.pageContent .itemInput > .el-date-editor{
+  width: 314px;
+  height: 30px;
+}
+.pageContent .itemInput .el-input__inner {
+  height: 30px;
+  line-height: 28px;
+  background-color: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  color: #222;
+  border-radius: 0;
+}
+/* .pageContent .itemInput .el-input__inner::-webkit-input-placeholder,
+.pageContent .itemInput .el-input__inner:-moz-placeholder,
+.pageContent .itemInput .el-input__inner::-moz-placeholder,
+.pageContent .itemInput .el-input__inner:-ms-input-placeholder{
+  color: #c0c4cc !important;
+} */
+/* 进度条字体颜色 */
+.pageContent .pageBox .el-progress__text{color: #0978bc;}
+
+
+/* input 输入*/
+.pageContent .el-input ,.infoPage .el-input {
+    height: 30px;   
+}
+.pageContent .el-input__inner , .infoPage  .el-input__inner {
+    height: 30px;
+    line-height: 28px;
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    color: #222;
+    border-radius: 0;
+}
+.pageContent .el-input-group__append, .infoPage .el-input-group__prepend{
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0 10px;
+    color: #222;
+}
+.pageContent textarea{
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    color: #222;
+    border-radius: 0;
+}
+.pageContent .el-date-editor {
+    height: 30px;
+}
+.pageContent .el-date-editor .el-range-input {
+    vertical-align: top;
+    background-color: #f4f4f4;
+}
+.pageContent .el-date-editor .el-range__icon {
+    line-height: 25px;
+}
+.pageContent .el-date-editor .el-range-separator {
+    line-height: 25px;
+}
+.pageContent .el-select {
+}
+.pageContent .el-input__icon {
+    line-height: 30px;
+} 
+
+.pageContent .pageBox .el-radio-button__inner{
+    padding: 6px 15px;
+    color: #0978bc;
+    border-color: #0978bc;
+}
+.pageContent .pageBox .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+    background-color: #0978bc;
+    color: #fff;
+    border-color: #0978bc;
+}
+.pageContent .pageBox .el-radio-button:first-child .el-radio-button__inner{
+    border-radius: 18px 0 0 18px;border-color: #0978bc;
+}
+.pageContent .pageBox .el-radio-button:last-child .el-radio-button__inner{
+ border-radius: 0 18px 18px 0;border-color: #0978bc;
+}
+/* --------------------------公用样式：分页和表格------------------------------ */
+/* 
+分页
+*/
+.paginationStyle {
+  height: 30px;
+  padding-top: 10px;
+  text-align: right;
+  position: relative;
+}
+.paginationStyle>.total {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.paginationStyle .el-pagination {
+  padding:0;
+}
+.paginationStyle .el-pagination.is-background .btn-next,
+.paginationStyle .el-pagination.is-background .btn-prev,
+.paginationStyle .el-pagination.is-background .el-pager li {
+  margin: 0 !important;
+  border: 1px solid #e4e4e4;
+  border-right: none;
+  border-radius: 0;
+}
+
+/* 
+表格样式
+*/
+.tableStyle .el-table .warning-row {
+  background: #f7f7f7;
+}
+
+.tableStyle .el-table thead {
+  color: #fff;
+  font-size: 15px;
+  font-family: '微软雅黑';
+}
+
+.tableStyle .el-table td,
+.tableStyle .el-table th {
+  padding: 0;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.tableStyle .el-table td {
+  font-size: 14px;
+  color: #222;
+}
+
+.tableStyle .el-table thead>tr>th {
+  background-color: #0978bc;
+}
+
+.tableStyle .el-table td,
+.tableStyle .el-table th.is-leaf {
+  border-bottom: 1px solid #e4e4e4;
+}
+.tableStyle td [class^='el-icon-'] {
+  color: #0978bc;
+  cursor: pointer;
+}
+.tableStyle span.statusClass{width:76px;height:30px;line-height:30px;font-size:14px;border-radius:15px;color:#fff;display:inline-block;text-align:center;}
+/* 多选表格 */
+.pageContent .chartBox .el-checkbox__label{display: none;}
+/* --------------------------公用样式：分页和表格结束------------------------------ */
+

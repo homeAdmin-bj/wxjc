@@ -1,0 +1,59 @@
+.body_box .el-input__inner {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0;
+    background: #f4f4f4;
+}
+
+.body_box .el-textarea__inner {
+    border-radius: 0;
+    background: #f4f4f4;
+}
+
+
+/* 自定义分组弹出框 */
+
+.addGroupBox .el-dialog__header {
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.addGroupBox .el-dialog__header .el-dialog__title {
+    font-size: 12px;
+    color: #0978bc;
+}
+
+.addGroupBox .el-dialog__header .el-dialog__headerbtn {
+    top: 10px;
+    right: 10px;
+}
+
+.addGroupBox .el-dialog__body {
+    padding: 10px 20px 0 0;
+}
+
+.addGroupBox .el-dialog__body .el-form-item__label {
+    font-size: 12px;
+}
+
+.addGroupBox .el-dialog__body .el-form-item__content .el-tree .el-tree-node__label {
+    font-size: 12px;
+}
+
+.addGroupBox .el-dialog__body .el-form-item__content .el-tree {
+    border: 1px solid #DCDFE6;
+    background: #f4f4f4;
+    height: 210px;
+    overflow: auto;
+}
+
+.addGroupBox .el-dialog__body .el-input__inner {
+    border-radius: 0;
+    background: #f4f4f4;
+}
+
+.addGroupBox .el-dialog__body .el-form-item.el-form-item--mini {
+    /* margin-bottom: 10px; */
+}

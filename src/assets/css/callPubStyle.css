@@ -1,0 +1,510 @@
+/* 筛选页面 */
+.contentBox {
+  box-sizing: border-box;
+  background: #e4ebf0;
+  min-width: calc(1100px);
+  padding: 0 10px 10px 10px !important;
+  font-family: "Microsoft YaHei";
+  /* overflow-y: auto; */
+}
+
+.contentBox .el-select-dropdown__list {
+  font-family: "Microsoft YaHei";
+}
+
+.contentBox .contentBox_page {
+  background: #fff;
+
+}
+
+.contentBox .page_title {
+  height: 30px;
+  background: #e4ebf0;
+  line-height: 30px;
+}
+
+.contentBox .page_title span {
+  line-height: 30px;
+  color: #333;
+  font-size: 12px;
+}
+
+.contentBox .page_box {
+  padding: 0 10px;
+  min-height: calc(100vh - 90px);
+
+}
+
+.contentBox .page_box .page_box_requirement {
+  /* background: red; */
+  border-bottom: 1px dashed #ddd;
+  padding: 20px 0;
+}
+
+.contentBox .page_box .page_box_requirement>div {
+  width: 1060px;
+  overflow: hidden;
+}
+
+.contentBox .page_box .page_box_result {
+  /* background: red; */
+  padding-top: 10px;
+}
+
+.contentBox .page_box .page_box_requirement .requirement {
+  width: 414px;
+  height: 30px;
+  font-size: 0;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.contentBox .page_box .page_box_requirement .queryOrno {
+  display: inline-block;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.contentBox .page_box .requirement>label {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+.contentBox .page_box .requirement .el-input {
+  width: 314px !important;
+  height: 30px !important;
+}
+
+.contentBox .page_box .requirement .el-date-editor {
+  width: 314px !important;
+  height: 30px !important;
+}
+
+.contentBox .page_box .requirement .el-date-editor .el-range-separator {
+  line-height: 22px;
+  color: #000;
+}
+
+.contentBox .page_box .requirement .el-date-editor .el-range__icon {
+  line-height: 26px;
+  height: 24px;
+}
+
+.contentBox .page_box .requirement .el-input .el-input__icon {
+  line-height: 30px;
+}
+
+.contentBox .page_box .requirement .el-input__inner {
+  height: 30px;
+  line-height: 28px;
+  background-color: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  color: #222;
+  border-radius: 0;
+  /* vertical-align: middle; */
+}
+
+.contentBox .page_box .requirement .el-range-editor .el-range-input {
+  background: #f4f4f4;
+  font-size: 12px;
+}
+
+.contentBox .page_box .page_box_requirement .queryOrno span {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #0978bc;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 15px;
+  margin-right: 14px;
+  color: #0978bc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.contentBox .page_box .page_box_requirement .queryOrno span:hover {
+  color: #fff;
+  background: #0978bc;
+}
+
+/* 居中呈现页面 */
+.contentBox .page_box .page_box_center {
+  width: 760px;
+  /* height: 600px; */
+  /* background: #ddd; */
+  padding-top: 10px;
+  margin-left: calc(50% - 400px);
+}
+
+.contentBox .page_box .el-form-item {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.contentBox .page_box .el-form-item__content {
+  line-height: 0;
+}
+
+.contentBox .page_box_center>.text>div {
+  /* padding-bottom: 10px; */
+  padding-top: 10px;
+}
+
+.contentBox .page_box_center>.text>div>.text_label {
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  text-align: right;
+
+}
+
+.contentBox .page_box_center>.text>div>.text_label label {
+  display: inline-block;
+  color: #6d6d6d;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.contentBox .page_box_center>.text>div>.text_label .el-checkbox {
+  float: left;
+  margin-left: 40px;
+}
+
+.contentBox .page_box_center>.text>div .el-input {
+  width: 400px !important;
+  height: 30px !important;
+}
+
+.contentBox .page_box_center>.text>div .el-date-editor {
+  width: 400px !important;
+  height: 30px !important;
+}
+
+.contentBox .page_box_center>.text>div .label_select .el-input {
+  width: 100px !important;
+  height: 30px !important;
+}
+.contentBox .page_box_center>.text>div .el-date-editor--time-select{
+    width: 178px !important;
+}
+.page_box_center .el-input__inner {
+  height: 30px;
+  line-height: 24px;
+  background-color: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  color: #222;
+  border-radius: 0;
+  vertical-align: middle;
+}
+
+.page_box_center .el-textarea__inner {
+  background-color: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  color: #222;
+  border-radius: 0;
+  font-family: "微软雅黑";
+}
+
+.page_box_center .textarea {
+  font-family: "微软雅黑";
+}
+
+.page_box_center .el-input.is-disabled .el-input__inner {
+  background-color: #f4f4f4;
+}
+
+.contentBox .page_box_center>.text>div .el-input .el-input__icon {
+  line-height: 30px;
+}
+
+.contentBox .page_box_center>.text>div .el-date-editor .el-range-separator {
+  line-height: 22px;
+  color: #000;
+}
+
+.contentBox .page_box_center>.text>div .el-range-editor .el-range-input {
+  background: #f4f4f4;
+  height: 20px;
+}
+
+.contentBox .page_box_center>.text>div .el-date-editor .el-range__icon {
+  line-height: 26px;
+}
+
+.contentBox .page_box_center .el-input-group__append,
+.el-input-group__prepend {
+  border-radius: 0px;
+  background-color: #f4f4f4;
+  width: 30px;
+  text-align: right;
+  padding: 0px 10px;
+}
+
+.contentBox .page_box_center>.text>div .el-textarea {
+  width: 400px !important;
+  /* height: 130px !important; */
+}
+
+.contentBox .page_box_center>.text {
+  padding-left: 100px;
+}
+
+.contentBox .page_box_center>.line {
+  font-size: 0;
+  height: 24px;
+  padding-top: 10px;
+}
+
+.contentBox .page_box_center>.line span:nth-child(1) {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 24px;
+  line-height: 20px;
+  width: 110px;
+  font-size: 16px;
+  padding: 0 6px;
+  color: #0978bd;
+  text-align: right;
+}
+
+.contentBox .page_box_center>.line span:nth-child(2) {
+  box-sizing: border-box;
+  width: 650px;
+  height: 12px;
+  vertical-align: top;
+  display: inline-block;
+  border-bottom: 1px dashed #7f7f7f;
+}
+
+.contentBox .page_box_center .upload-demo {
+  width: 400px;
+}
+
+.contentBox .back {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contentBox .back span {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  line-height: 28px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: #0978bd;
+  border: 1px solid #0978bd;
+  cursor: pointer;
+}
+
+.contentBox .back span:hover {
+  background: #0978bd;
+  color: #fff;
+}
+
+/* 
+表格样式
+*/
+
+.table_temp .el-table .warning-row {
+  background: #f7f7f7;
+}
+
+.table_temp .el-table thead {
+  color: #fff;
+  font-size: 15px;
+  font-family: '微软雅黑';
+}
+
+.table_temp .el-table td,
+.table_temp .el-table th {
+  padding: 0;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.table_temp .el-table td {
+  font-size: 14px;
+  color: #222;
+  font-family: '微软雅黑';
+}
+
+.table_temp .el-table thead>tr>th {
+  background-color: #0978bc;
+}
+
+.table_temp .el-table td,
+.table_temp .el-table th.is-leaf {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.table_temp [class^='el-icon-'] {
+  color: #0978bc;
+  cursor: pointer;
+}
+
+/* page页码 */
+.emgPage {
+  height: 30px;
+  padding-top: 10px;
+  text-align: right;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.table_temp>.total {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.table_temp .el-pagination {
+  padding: 2px 0;
+}
+
+.table_temp .el-pagination.is-background .btn-next,
+.table_temp .el-pagination.is-background .btn-prev,
+.table_temp .el-pagination.is-background .el-pager li {
+  margin: 0 !important;
+  border: 1px solid #e4e4e4;
+  border-right: none;
+  border-radius: 0;
+}
+
+.table_temp .el-pagination.is-background .btn-next {
+  border: 1px solid #e4e4e4;
+}
+
+/* 新增 导入 */
+.contentBox .page_box .download {
+  height: 40px;
+  color: #0978bc;
+}
+
+.contentBox .page_box .download span {
+  float: right;
+  text-align: center;
+  margin-left: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 0 15px;
+  border: 1px solid #0978bc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contentBox .page_box .download span:hover {
+  background-color: #0978bc;
+  color: #fff;
+}
+
+/* 人员选择 */
+.dialogS .el-dialog__header {
+  padding: 0;
+}
+
+.dialogS .el-dialog__body {
+  padding: 10px 10px 10px 10px;
+}
+
+.dialogS .el-dialog__headerbtn {
+  top: 8px;
+  right: 8px;
+}
+
+/* 居中查看页面 */
+.contentBox .contentBox_pageSee .el-input__inner {
+  color: #222;
+}
+
+.contentBox .contentBox_pageSee input {
+  color: #222;
+}
+
+.contentBox .contentBox_pageSee .el-input__inner {
+  background: #fff;
+  border-color: #fff;
+}
+
+.contentBox .contentBox_pageSee .el-range-editor .el-range-input {
+  background: #fff !important;
+}
+
+.contentBox .contentBox_pageSee .el-range-editor .el-range__icon {
+  display: none;
+}
+
+.contentBox .contentBox_pageSee .page_box_center>.outCallTactics>div .el-input {
+  width: 120px !important;
+}
+
+.contentBox .contentBox_pageSee .page_box_center>.outCallTactics>div .el-input__inner {
+  padding: 0 0 0 15px;
+}
+
+.contentBox .contentBox_pageSee .page_box_center .el-input-group__append,
+.el-input-group__prepend {
+  background-color: #fff;
+  border: none;
+  color: #222;
+}
+
+.el-message-box__header {
+  text-align: center;
+  color: #0978bc;
+  line-height: 0;
+  padding-top: 10px !important;
+}
+
+.el-message-box__header .el-message-box__headerbtn {
+  top: 10px !important;
+  right: 10px !important;
+}
+
+.el-message-box__header span {
+  color: #0978bc;
+}
+
+.el-message-box--center {
+  padding-bottom: 0px;
+}
+
+.el-message-box__btns {
+  text-align: center;
+  /* padding-bottom: 40px; */
+  padding-right: calc(50% - 92px);
+}
+
+.el-message-box__btns button {
+  height: 30px;
+  width: 62px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 15px;
+  line-height: 4px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 14px;
+  border: 1px solid #0978bc !important;
+  color: #0978bc !important;
+  background: #fff !important;
+}
+
+.el-message-box__btns button:hover {
+  color: #fff !important;
+  background: #0978bc !important;
+}

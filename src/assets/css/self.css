@@ -1,0 +1,184 @@
+/* -------------------------- 左侧菜单样式 ----------------------*/
+/* 菜单浮悬框样式 */
+.el-tooltip__popper.is-dark.menu {
+    margin-left: -130px !important;
+}
+/* 父菜单样式 */
+#leftbar .el-menu {
+    background: transparent !important;
+}
+#leftbar .el-submenu__title{
+padding: 0 12px!important;
+height: 50px;
+line-height: 50px;
+}
+#leftbar .el-menu {
+    overflow: hidden;
+}
+/* 去除第一个子菜单顶部像素 */
+#leftbar .el-menu-item-group__title {
+display: none;
+}
+/* 子菜单样式 */
+#leftbar .el-submenu .el-menu-item {
+height: 40px;
+line-height: 40px;
+background: #001722;
+}
+/* 去除尾部下拉图标 */
+#leftbar .el-submenu__icon-arrow {
+display: none !important;
+}
+/* 菜单展开样式 */
+.el-submenu__title:focus, .el-submenu__title:hover {
+background: #0978bc !important;
+}
+#leftbar .el-menu-vertical .el-submenu.is-opened {
+background: #001722;
+}
+/* 选中菜单颜色 */
+#leftbar .el-menu-vertical .el-menu-item.is-active {
+background: #0978bc !important;
+}
+/* 菜单悬浮颜色 */
+#leftbar .el-menu-vertical .el-menu-item:hover {
+background: #0978bc !important;
+}
+#leftbar .el-menu-vertical .el-submenu__title:hover {
+background: #0978bc;
+}
+/* 去除a标签下划线和改a标签颜色 */
+#leftbar .el-menu-vertical .el-menu-item a {
+color: #fff;
+text-decoration: none;
+}
+/* 菜单展开收缩按钮样式 */
+#leftbar .transformation {
+width:190px;text-align:left;height:50px;line-height:50px;border-bottom: 1px solid #000;
+}
+#leftbar .transformation > img {
+vertical-align:middle;margin-left:12px;
+}
+/* 统计查询条件样式 */
+.static .select_time {
+font-size:14px;
+font-family: MicrosoftYahel;
+vertical-align:top;
+display:inline-block;
+line-height:30px;
+}
+/* ------------------------ 日期格式 ------------------------------ */
+/* 统计日期组件el-date-picker样式 */
+/* 调整日期输入框高度 */
+.static .el-range-editor.el-input__inner {
+height: 30px;
+}
+/* 日期开始图表样式 */
+.static .el-date-editor .el-range__icon,.static .el-date-editor .el-range-separator{
+line-height: 22px;
+vertical-align: top;
+}
+/* 悬浮边框颜色 */
+.static .el-range-editor.is-active, .el-range-editor.is-active:hover {
+border-color: #DCDFE6;
+}
+/* 输入框和删除图表样式 */
+.static .el-range-editor .el-range-input ,.static .el-date-editor .el-range__close-icon{
+vertical-align: top;
+line-height: 22px;
+}
+/*-------------------------- 统计查询按钮样式 ---------------------*/
+.static .search_btn,.static .reset_btn {
+border: none;
+outline: none;
+width:60px;
+height: 28px;
+line-height: 28px;
+border-radius: 15px;
+cursor: pointer;
+color: #0978bc;
+background: #fff;
+border: 1px solid #0978bc;
+margin-left: 12px;
+vertical-align: top;
+}
+.static .search_btn:hover,.static .reset_btn:hover {
+background: #0978bc;
+color: #fff;
+vertical-align: top;
+}
+
+/* -------------------------- 头部弹框样式 ----------------------------- */
+#home_header .password .el-dialog__header{
+text-align: center;
+padding: 8px 20px;
+}
+#home_header .el-dialog__body {
+    padding:10px 20px 20px;
+}
+#home_header .password .el-dialog__header span {
+font-size: 15px;
+color: rgb(9, 120, 188);
+font-weight: bolder;
+}
+#home_header .password .el-input {
+    width: 260px;
+}
+#home_header .password .el-input .el-input__inner{
+    height:30px;
+}
+#home_header .password .el-form-item__label {
+    height: 30px;
+    width: 90px !important;
+    display: inline-block;
+}
+#home_header .password .el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+    display: none;
+}
+#home_header .password .el-form-item {
+    margin-bottom: 15px !important;
+}
+#home_header .password .el-form-item__content {
+    margin-left: 90px !important;
+}
+
+/* 头部弹框确定取消按钮样式 */
+#home_header .password .sure {
+    text-align: center;
+    padding: 20px 0 0;
+}
+#home_header .password .sure span {
+    display: inline-block;
+    height: 30px;
+    width: 62px;
+    margin-left: 10px;  
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #0978bc!important;
+    color: #0978bc!important;
+    background: #fff!important;
+}
+#home_header .password .sure span:hover {
+    color:#fff!important;
+    background: #0978bc!important;
+}
+
+/* login登录页样式 */
+#login .ruleForm .el-input__inner {
+    height: 50px;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    border: 1px solid #314f5a;
+    background: rgba(0,0,0,0.5);
+    border-radius: 4px;
+    padding-left: 20px;
+    color: #fff;
+    outline: none;
+}
+#login .ruleForm .el-form-item {
+    margin: 0;
+}
+#login .el-checkbox {
+    color: #fff;
+}
